@@ -15,6 +15,7 @@ namespace BTTuan5.Migrations
                         Name = c.String(nullable: false, maxLength: 255),
                     })
                 .PrimaryKey(t => t.Id);
+
             
             CreateTable(
                 "dbo.Courses",
