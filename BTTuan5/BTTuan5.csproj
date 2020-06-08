@@ -206,9 +206,9 @@
     <Compile Include="Migrations\202006080718055_InitialModel.Designer.cs">
       <DependentUpon>202006080718055_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202006080755529_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\202006080755529_PopulateCategoryTable.Designer.cs">
-      <DependentUpon>202006080755529_PopulateCategoryTable.cs</DependentUpon>
+    <Compile Include="Migrations\202006080919413_AddTable.cs" />
+    <Compile Include="Migrations\202006080919413_AddTable.Designer.cs">
+      <DependentUpon>202006080919413_AddTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -300,8 +300,8 @@
     <EmbeddedResource Include="Migrations\202006080718055_InitialModel.resx">
       <DependentUpon>202006080718055_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202006080755529_PopulateCategoryTable.resx">
-      <DependentUpon>202006080755529_PopulateCategoryTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202006080919413_AddTable.resx">
+      <DependentUpon>202006080919413_AddTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

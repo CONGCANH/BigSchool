@@ -7,13 +7,13 @@ namespace BTTuan5.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class PopulateCategoryTable : IMigrationMetadata
+    public sealed partial class AddTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateCategoryTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "202006080755529_PopulateCategoryTable"; }
+            get { return "202006080919413_AddTable"; }
         }
         
         string IMigrationMetadata.Source
