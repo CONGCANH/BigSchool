@@ -16,7 +16,7 @@ namespace BTTuan5.Controllers
         {
             _dbContext = new ApplicationDbContext();
         }
-        // GET: Courses
+        //GET: Courses
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
@@ -27,6 +27,7 @@ namespace BTTuan5.Controllers
         }
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModel viewModel)
         {
             if (!ModelState.IsValid)
@@ -38,7 +39,7 @@ namespace BTTuan5.Controllers
             {
                 LecturerId = User.Identity.GetUserId(),
                 DateTime = viewModel.GetDateTime(),
-                CatrgoryId = viewModel.Category,
+                CategoryId = viewModel.Category,
                 Place = viewModel.Place
             };
             _dbContext.Courses.Add(course);

@@ -19,7 +19,7 @@ namespace BTTuan5.Models
         public DateTime DateTime { get; set; }
         public Category Category { get; set; }
         [Required]
-        public byte CatrgoryId { get; set; }
+        public byte CategoryId { get; set; }
 
         
     }
