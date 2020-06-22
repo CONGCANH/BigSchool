@@ -32,3 +32,36 @@ navbar-inverse .navbar-nav > li > a{
 navbar-inverse .navbar-bard {
     color: white;
 }
+/*Course layout*/
+.course {
+    list-style: none;
+}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .course > li .date {
+            text-align: center;
+            background-color: #02b900;
+            color: black;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+        .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }
+
+        /*.course > li .action {
+            display: block;
+            left: 70px;
+            position: absolute;
+        }
+
+        .course > li:hover .action {
+            display: block;
+        }*/
