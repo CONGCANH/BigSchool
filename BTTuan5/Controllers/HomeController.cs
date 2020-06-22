@@ -17,9 +17,9 @@ namespace BTTuan5.Controllers
         }
         public ActionResult Index()
         {
-           
+
             var upcommingCourses = _dbContext.Courses
-                .Include( c => c.Category)
+                .Include(c => c.Category)
                 .Include(c => c.Lecturer)
                 .Where(c => c.DateTime > DateTime.Now);
             return View(upcommingCourses);
